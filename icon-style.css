@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?is7o93');
-  src:  url('fonts/icomoon.eot?is7o93#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?is7o93') format('truetype'),
-    url('fonts/icomoon.woff?is7o93') format('woff'),
-    url('fonts/icomoon.svg?is7o93#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?b69d7k');
+  src:  url('fonts/icomoon.eot?b69d7k#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?b69d7k') format('truetype'),
+    url('fonts/icomoon.woff?b69d7k') format('woff'),
+    url('fonts/icomoon.svg?b69d7k#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-usbc-cable:before {
+  content: "\e912";
+}
 .icon-cables:before {
   content: "\e911";
 }
