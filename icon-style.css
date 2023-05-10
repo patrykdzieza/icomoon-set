@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?6hhqxe');
+  src:  url('fonts/icomoon.eot?6hhqxe#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?6hhqxe') format('truetype'),
+    url('fonts/icomoon.woff?6hhqxe') format('woff'),
+    url('fonts/icomoon.svg?6hhqxe#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.menu-icons-airtag:before {
+  content: "\e900";
+}
+.menu-icons-phone-case:before {
+  content: "\e901";
+}
+.menu-icons-tripod:before {
+  content: "\e902";
+}
+.menu-icons-keyboard:before {
+  content: "\e903";
+}
+.menu-icons-phone-screen:before {
+  content: "\e904";
+}
+.menu-icons-usb:before {
+  content: "\e905";
+}
+.menu-icons-cleaning:before {
+  content: "\e906";
+}
+.menu-icons-phone-charger:before {
+  content: "\e907";
+}
+.menu-icons-powerbank:before {
+  content: "\e908";
+}
+.menu-icons-ipad-case:before {
+  content: "\e909";
+}
+.menu-icons-apple-pencil:before {
+  content: "\e90a";
+}
+.menu-icons-macbook:before {
+  content: "\e90b";
+}
+.menu-icons-backpack:before {
+  content: "\e90c";
+}
+.menu-icons-usb-c-cable:before {
+  content: "\e90d";
+}
+.menu-icons-macbook-stand:before {
+  content: "\e90e";
+}
