@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?6hhqxe');
-  src:  url('fonts/icomoon.eot?6hhqxe#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?6hhqxe') format('truetype'),
-    url('fonts/icomoon.woff?6hhqxe') format('woff'),
-    url('fonts/icomoon.svg?6hhqxe#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?i7s6mi');
+  src:  url('fonts/icomoon.eot?i7s6mi#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?i7s6mi') format('truetype'),
+    url('fonts/icomoon.woff?i7s6mi') format('woff'),
+    url('fonts/icomoon.svg?i7s6mi#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-i {
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: never;
@@ -25,48 +25,48 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.menu-icons-airtag:before {
+.icon-airtag:before {
   content: "\e900";
 }
-.menu-icons-phone-case:before {
+.icon-stand:before {
   content: "\e901";
 }
-.menu-icons-tripod:before {
+.icon-usb-c-cable:before {
   content: "\e902";
 }
-.menu-icons-keyboard:before {
+.icon-backpack:before {
   content: "\e903";
 }
-.menu-icons-phone-screen:before {
+.icon-macbook:before {
   content: "\e904";
 }
-.menu-icons-usb:before {
+.icon-apple-pencil2:before {
   content: "\e905";
 }
-.menu-icons-cleaning:before {
+.icon-ipad-case:before {
   content: "\e906";
 }
-.menu-icons-phone-charger:before {
+.icon-powerbank:before {
   content: "\e907";
 }
-.menu-icons-powerbank:before {
+.icon-phone-charger:before {
   content: "\e908";
 }
-.menu-icons-ipad-case:before {
+.icon-cleaning:before {
   content: "\e909";
 }
-.menu-icons-apple-pencil:before {
+.icon-usb:before {
   content: "\e90a";
 }
-.menu-icons-macbook:before {
+.icon-phone-screen:before {
   content: "\e90b";
 }
-.menu-icons-backpack:before {
+.icon-keyboard:before {
   content: "\e90c";
 }
-.menu-icons-usb-c-cable:before {
+.icon-tripod:before {
   content: "\e90d";
 }
-.menu-icons-macbook-stand:before {
+.icon-phone-case:before {
   content: "\e90e";
 }
