@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?b69d7k');
-  src:  url('fonts/icomoon.eot?b69d7k#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?b69d7k') format('truetype'),
-    url('fonts/icomoon.woff?b69d7k') format('woff'),
-    url('fonts/icomoon.svg?b69d7k#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?2smn9j');
+  src:  url('fonts/icomoon.eot?2smn9j#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?2smn9j') format('truetype'),
+    url('fonts/icomoon.woff?2smn9j') format('woff'),
+    url('fonts/icomoon.svg?2smn9j#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-watch-protect:before {
+  content: "\e916";
+}
+.icon-watch-band:before {
+  content: "\e914";
+}
+.icon-keyboard-mouse:before {
+  content: "\e915";
+}
+.icon-mac-stand:before {
+  content: "\e913";
+}
 .icon-usbc-cable:before {
   content: "\e912";
 }
